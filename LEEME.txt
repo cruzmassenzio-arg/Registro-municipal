@@ -1,0 +1,16 @@
+# Registro de horas extra — versión PWA
+
+## Contenido
+- `index.html`: aplicación adaptada.
+- `manifest.webmanifest`: identidad e instalación de la PWA.
+- `service-worker.js`: caché para abrir la aplicación sin conexión después de la primera visita.
+- `icons/`: iconos de instalación.
+
+## Publicación
+La PWA necesita servirse desde HTTPS (o localhost para pruebas). Una vez publicada, abrí su dirección en Chrome Android y elegí **Instalar aplicación** o **Agregar a pantalla de inicio**.
+
+## Datos
+Los registros se guardan en el almacenamiento local del navegador del dispositivo. Si se borran los datos del sitio o se cambia de navegador/dispositivo, pueden perderse. Exportá periódicamente la planilla CSV como respaldo.
+
+## Nota
+La sincronización con la cuenta de Claude no forma parte de esta versión. La descarga CSV se adaptó para usar el navegador.
